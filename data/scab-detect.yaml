@@ -1,0 +1,8 @@
+# train test and val datasets (image directory or *.txt file with image paths)
+train: ./data/Apple Scab/images/train/
+test: ./data/Apple Scab/images/test/
+val: ./data/Apple Scab/images/val/
+# number of classes
+nc: 2
+# class names
+names: [‘Apple_leaf’, ‘Scab’]
